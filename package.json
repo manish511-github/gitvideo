@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-alpha.34",
+    "@aws-sdk/client-s3": "^3.726.1",
     "@clerk/localizations": "^3.9.0",
     "@clerk/nextjs": "^6.9.0",
     "@electric-sql/pglite": "^0.2.15",
@@ -37,6 +38,7 @@
     "@sentry/nextjs": "^8.43.0",
     "@spotlightjs/spotlight": "^2.7.0",
     "@t3-oss/env-nextjs": "^0.11.1",
+    "axios": "^1.7.9",
     "drizzle-orm": "^0.38.0",
     "multer": "^1.4.5-lts.1",
     "next": "^15.1.0",
@@ -46,6 +48,7 @@
     "pino-pretty": "^13.0.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "react-dropzone-uploader": "^2.11.0",
     "react-hook-form": "^7.54.0",
     "zod": "^3.24.0"
   },

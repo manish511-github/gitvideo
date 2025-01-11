@@ -16,7 +16,7 @@ const VideoUploadForm = () => {
 
     try {
       // Step 1: Send metadata to backend and get upload URL
-      const response = await fetch('/api/upload-metadata', {
+      const response = await fetch('upload/api/upload', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -29,7 +29,8 @@ const VideoUploadForm = () => {
       });
 
       const { uploadUrl } = await response.json();
-
+      /* eslint-disable no-console */
+      console.log(uploadUrl);
       // Step 2: Upload the video file to S3
       await fetch(uploadUrl, {
         method: 'PUT',

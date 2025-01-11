@@ -13,3 +13,21 @@ model User {
   email     String   @unique
   createdAt DateTime @default(now())
 }
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String?
+  createdAt DateTime @default(now())
+  authorId  Int
+}
+
+model Video {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  tags        String[]
+  fileName    String
+  version     String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

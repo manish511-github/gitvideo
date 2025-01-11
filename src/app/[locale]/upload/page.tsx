@@ -1,8 +1,6 @@
 import VideoUploadForm from '@/components/VideoUpload';
 
-type Props = {}
-
-const Page = (props: Props) => {
+const Page = () => {
   return (
     <VideoUploadForm />
   );
