@@ -26,7 +26,8 @@ model Video {
   title       String
   description String
   tags        String[]
-  fileName    String
+  fileName    String   @unique
+  uploadUrl   String   // Add this field to store the URL
   version     String
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
