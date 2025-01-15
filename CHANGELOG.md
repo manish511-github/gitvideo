@@ -1,3 +1,10 @@
+# 1.0.0 (2025-01-15)
+
+
+### Features
+
+* setup video upload to aws s3 (local) + prisma database setup ([5581bbb](https://github.com/manish511-github/gitvideo/commit/5581bbb90cf548a1d9566409ea90acc642af0ba5))
+
 ## [3.60.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.4...v3.60.5) (2024-12-20)
 
 
