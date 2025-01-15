@@ -1,7 +1,6 @@
+import { AddRepositoryDialog } from '@/components/add-repository-dialog';
 import { ThemeToggle } from '@/components/theme-toggle';
-import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { PlusCircle } from 'lucide-react';
 import Link from 'next/link';
 
 export function Header() {
@@ -19,10 +18,7 @@ export function Header() {
           />
         </div>
         <ThemeToggle />
-        <Button>
-          <PlusCircle className="mr-2 size-4" />
-          New Repository
-        </Button>
+        <AddRepositoryDialog />
       </div>
     </header>
   );
