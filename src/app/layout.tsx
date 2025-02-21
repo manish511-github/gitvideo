@@ -1,3 +1,4 @@
+import { MainNav } from '@/components/main-nav';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Inter } from 'next/font/google';
 import '@/styles/global.css';
@@ -18,6 +19,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <MainNav />
           {children}
         </ThemeProvider>
       </body>
