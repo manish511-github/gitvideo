@@ -1,8 +1,8 @@
-import { VideoPlayer } from "@/components/video-player"
-import { VersionHistory } from "@/components/version-history"
-import { VideoMetadata } from "@/components/video-metadata"
-import { VideoOperations } from "@/components/video-operations"
-import { BranchSelector } from "@/components/branch-selector"
+import { BranchSelector } from '@/components/branch-selector';
+import { VersionHistory } from '@/components/version-history';
+import { VideoMetadata } from '@/components/video-metadata';
+import { VideoOperations } from '@/components/video-operations';
+import { VideoPlayer } from '@/components/video-player';
 
 export default function RepoPage({ params }: { params: { id: string } }) {
   return (
@@ -26,6 +26,5 @@ export default function RepoPage({ params }: { params: { id: string } }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
