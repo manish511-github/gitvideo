@@ -1,3 +1,10 @@
+# 1.0.0 (2025-02-21)
+
+
+### Features
+
+* setup video upload to aws s3 (local) + prisma database setup ([5581bbb](https://github.com/manish511-github/gitvideo/commit/5581bbb90cf548a1d9566409ea90acc642af0ba5))
+
 # 1.0.0 (2025-02-18)
 
 
